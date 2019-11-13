@@ -1,0 +1,60 @@
+body {
+    background-image: url(images/dot-grid.png);
+}
+
+#bodyContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    width: 960px;
+    height: 919px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(4, 8, 48);
+    border-width: 5px;
+}
+
+#Title {
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    font-size: 65px;
+    color: black;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+    text-align: center;
+  }
+
+#website-description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#user-input-field {
+    margin-left: 31%;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    margin-left: 37%;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.results {
+    text-align: center;
+}
